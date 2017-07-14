@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="store.css">
+	</head>
+	<body  >
+		<h2> Here you can add First Name, Last Name and ID of a person who wants to buy </h2>
+		<img src="po.png">
+
+		<p id="pname">First Name:<input type = "text" id="nameaddbox"></p>
+		<p id="plast">Last Name:<input type = "text" id="lastnameaddbox"></p>
+		<p id="pid"> ID:<input type = "text" id="idaddbox" readonly></p>
+		 
+		<button id="nameaddbutton">Create</button>
+		<button id="updatebutton">Update</button>
+		<button id="showallbutton">Show All</button>
+		 
+		<br>
+		<p id="psearch">Get Person by ID:<br> <input type="text" id="searchtextbox"></p>
+		<button id="searcher">Get</button>
+		<br><br>
+		 
+		<p id="pdelete" >Delete Person by ID:<br> <input type="text" id="deletetextbox"></p>
+		<button id="deleter">Delete</button>
+		<br><br>
+		 
+		<ul id="pId"></ul>
+		<script src="store.js"> </script>
+	</body>
+</html>
