@@ -1,0 +1,12 @@
+Download a package 
+
+open GitBush or cmd  (somewhere where you can change the current working directory to this project :D )
+Type - node serverStore.js
+Go to your browser
+Type - localhost:3000/store.html 
+(if this port is busy change the port in serverStore.js and type that port instead of 3000)
+Done! I think yo can figure out how to use that 
+
+WARNING!!!
+there is a bug - if you type wrong ID it will give you an error in console 
+I will fix that I promise :D 
